@@ -1,0 +1,49 @@
+{
+  "Activated": true,
+  "Name": "Mode3_Profile1",
+  "CustomizeName": "1",
+  "CPU": {
+    "PL1": 120,
+    "PL1_Enabled": false,
+    "PL2": 120,
+    "PL2_Enabled": false,
+    "PL1_dc": 0,
+    "PL1_dc_Enabled": false,
+    "PL2_dc": 0,
+    "PL2_dc_Enabled": false,
+    "PL4": 200,
+    "OffsetCoreVoltage": -65,
+    "TccOffsetSwitch": 0,
+    "TccOffset": 5,
+    "AmdSPL": 75,
+    "AmdSPPT": 75,
+    "AmdFPPT": 200,
+    "AmdTccTarget": 5,
+    "AmdCoreFreq": 0,
+    "AmdCoreVoltage": 0
+  },
+  "GPU": {
+    "CoreClockOffset": 170,
+    "MemoryClockOffset": 1000,
+    "TargetTemperature": 87,
+    "ConfigurableTGPSwitch": 1,
+    "ConfigurableTGPTarget": 130,
+    "DynamicBoostSwitch": 0,
+    "DynamicBoost": 15,
+    "DynamicBoostTotalProcessingPowerTarget": 255,
+    "WhisperModeSwitch": 0,
+    "WhisperModeSetting": 0,
+    "WhisperModeMinFps_QUIETER": 30,
+    "WhisperModeMinFps_QUIET": 40,
+    "WhisperModeMinFps_BALANCED": 60
+  },
+  "FAN": {
+    "TableName": "M3T1",
+    "FanSwitchSpeedEnabled": 0,
+    "FanSwitchSpeed": 300,
+    "SkipSafetyAbnormalProtection": 0
+  },
+  "MEM": {
+    "MemoryOverClockSwitch": 1
+  }
+}
